@@ -1,0 +1,33 @@
+{
+    "name": "youvision/think-salting",
+    "description": "ThinkPHP 密码加盐组件，提供 make_salt 随机盐生成与可配置前后缀的 AdminPassword 算法",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "thinkphp",
+        "salt",
+        "password",
+        "hash"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkSalting\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkSalting\\Service"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
