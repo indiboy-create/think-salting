@@ -1,5 +1,15 @@
 {
     "name": "youvision/think-salting",
+    "authors": [
+        {
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
+        },
+        {
+            "name": "AI",
+            "role": "Developer"
+        }
+    ],
     "description": "ThinkPHP 密码加盐组件，提供 make_salt 随机盐生成与可配置前后缀的 AdminPassword 算法",
     "type": "library",
     "license": "MIT",
